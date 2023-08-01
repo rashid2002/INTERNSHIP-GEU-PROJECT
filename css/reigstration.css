@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    background-color:papayawhip
+}
+
+.body-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents .logo p {
+  font-weight: 600;
+  font-size: 32px;
+}
+.container {
+  width: max-content;
+  /* background-color: rgb(237, 255, 206); */
+  padding: 48px 176px 48px 5px;
+  border-radius: 32px;
+}
+
+.container .registration-table , .container .login-table {
+  background-color: rgba(156, 255, 255, 0.05);
+}
+.container .text {
+  display: flex;
+  justify-content: center;
+}
+
+/* .container .logo {
+  margin-bottom: 8px;
+} */
+
+.container label {
+  color: #fff2d8;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+td {
+  padding: 16px;
+  /* background-color: bisque; */
+  text-align: left;
+}
+
+input {
+  border: 1px solid;
+  /* border-color: rgb(142, 155, 121); */
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.button {
+  padding: 8px 132px;
+}
+
+#name-error,
+#PhoneNumber-error,
+#E-mail-error,
+#password-error {
+  display: none;
+  color: red;
+}
+
+.main-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 12px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.image img {
+  border-radius: 10px;
+  width: 840px;
+}
+
+.register-now-text, .login-now-text {
+  color: #e9d574;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+   font-weight: 600;
+}
+
+a:active{
+    color: black;
+}
